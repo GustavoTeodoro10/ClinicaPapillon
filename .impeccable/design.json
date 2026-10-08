@@ -1,0 +1,490 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T13:49:38.471Z",
+  "title": "Design System: Clínica Papillon",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Branco Azulado",
+        "canonical": "#f3f6fa",
+        "oklch": "oklch(97.2% 0.006 255)",
+        "tonalRamp": [
+          "#101213",
+          "#2a2c2f",
+          "#46494c",
+          "#65676b",
+          "#85888c",
+          "#a7aaae",
+          "#cccdd0",
+          "#f1f2f2"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Superfície",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 90)",
+        "tonalRamp": [
+          "#121212",
+          "#2c2c2c",
+          "#484848",
+          "#676767",
+          "#888888",
+          "#aaaaaa",
+          "#cdcdcd",
+          "#f2f2f2"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ardósia Profunda",
+        "canonical": "#1b2633",
+        "oklch": "oklch(26.5% 0.029 253)",
+        "tonalRamp": [
+          "#0c1219",
+          "#222d3a",
+          "#3e4a58",
+          "#5c6978",
+          "#7c8999",
+          "#9dabbc",
+          "#c5ced9",
+          "#f0f2f5"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Ardósia Corrida",
+        "canonical": "#3f4c5e",
+        "oklch": "oklch(41.3% 0.035 257)",
+        "tonalRamp": [
+          "#0c121b",
+          "#212c3c",
+          "#3c495b",
+          "#5b687b",
+          "#7b899d",
+          "#9cabc0",
+          "#c5cedb",
+          "#eff2f6"
+        ]
+      },
+      "ink-mute": {
+        "role": "neutral",
+        "displayName": "Ardósia de Apoio",
+        "canonical": "#566377",
+        "oklch": "oklch(49.6% 0.036 259)",
+        "tonalRamp": [
+          "#0c121b",
+          "#212c3d",
+          "#3d495c",
+          "#5b687c",
+          "#7b899e",
+          "#9dabc1",
+          "#c5cedc",
+          "#eff2f6"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Linha Azul-Acinzentada",
+        "canonical": "#c9d6e3",
+        "oklch": "oklch(87.0% 0.023 248)",
+        "tonalRamp": [
+          "#0d1217",
+          "#232d36",
+          "#3f4a54",
+          "#5d6974",
+          "#7d8995",
+          "#9facb8",
+          "#c6ced6",
+          "#f0f2f4"
+        ]
+      },
+      "on-indigo": {
+        "role": "neutral",
+        "displayName": "Névoa sobre Índigo",
+        "canonical": "#e3e6fb",
+        "oklch": "oklch(92.9% 0.029 279)",
+        "tonalRamp": [
+          "#101119",
+          "#292a3a",
+          "#454758",
+          "#636678",
+          "#848699",
+          "#a6a8bc",
+          "#cbccd9",
+          "#f1f1f5"
+        ]
+      },
+      "indigo": {
+        "role": "primary",
+        "displayName": "Índigo Borboleta",
+        "canonical": "#3a45a0",
+        "oklch": "oklch(43.5% 0.146 273)",
+        "tonalRamp": [
+          "#080837",
+          "#1b1a70",
+          "#323b96",
+          "#4e5dba",
+          "#6c7fdf",
+          "#8da2ff",
+          "#bacaff",
+          "#ecf1ff"
+        ]
+      },
+      "indigo-deep": {
+        "role": "primary",
+        "displayName": "Índigo Profundo",
+        "canonical": "#2d3680",
+        "oklch": "oklch(37.1% 0.124 273)",
+        "tonalRamp": [
+          "#090b32",
+          "#1c2066",
+          "#353f8a",
+          "#5160ae",
+          "#7081d2",
+          "#91a4f8",
+          "#bdcbff",
+          "#edf1ff"
+        ]
+      },
+      "indigo-soft": {
+        "role": "primary",
+        "displayName": "Índigo Névoa",
+        "canonical": "#dde1f5",
+        "oklch": "oklch(91.3% 0.028 277)",
+        "tonalRamp": [
+          "#101119",
+          "#282b39",
+          "#444758",
+          "#636677",
+          "#838799",
+          "#a5a9bc",
+          "#cacdd8",
+          "#f1f1f5"
+        ]
+      },
+      "sky": {
+        "role": "secondary",
+        "displayName": "Azul do Filete",
+        "canonical": "#dce8f2",
+        "oklch": "oklch(92.5% 0.019 243)",
+        "tonalRamp": [
+          "#0d1216",
+          "#242d34",
+          "#404a52",
+          "#5e6971",
+          "#7f8993",
+          "#a0acb5",
+          "#c7ced4",
+          "#f0f2f4"
+        ]
+      },
+      "leaf": {
+        "role": "secondary",
+        "displayName": "Verde-Folha",
+        "canonical": "#e4eee7",
+        "oklch": "oklch(94.0% 0.014 156)",
+        "tonalRamp": [
+          "#0f1310",
+          "#262e29",
+          "#434b45",
+          "#616a64",
+          "#818b84",
+          "#a3ada6",
+          "#c9cfcb",
+          "#f1f2f1"
+        ]
+      },
+      "star": {
+        "role": "tertiary",
+        "displayName": "Dourado Google",
+        "canonical": "#f4b400",
+        "oklch": "oklch(80.8% 0.166 83)",
+        "tonalRamp": [
+          "#250700",
+          "#501800",
+          "#723800",
+          "#945900",
+          "#b87b00",
+          "#dc9d00",
+          "#eec87f",
+          "#fbf1de"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Somente o H1 do hero, em Bricolage Grotesque 700, duas linhas no desktop."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Títulos de seção em Bricolage Grotesque 650, largura máxima de 22ch."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Nome da especialidade em cada célula do bento; maior na célula de Psicologia."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Subtexto do hero e leads de seção em Hanken Grotesk."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texto corrido em Hanken Grotesk 400, cor ink-soft."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Botões, links com seta, chips e navegação em Hanken Grotesk 500 a 600."
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-panel",
+        "value": "0 1px 2px rgba(27, 38, 51, 0.05), 0 12px 32px -12px rgba(45, 54, 128, 0.18)",
+        "purpose": "Célula do bento em hover (somente com mouse), junto de translateY(-4px)."
+      },
+      {
+        "name": "shadow-btn-primary",
+        "value": "0 10px 24px -12px rgba(58, 69, 160, 0.7)",
+        "purpose": "Sombra tingida de índigo do botão primário em repouso; no hover vira 0 16px 30px -14px rgba(45, 54, 128, 0.75)."
+      },
+      {
+        "name": "shadow-float",
+        "value": "0 14px 28px -10px rgba(45, 54, 128, 0.7)",
+        "purpose": "Botão flutuante do WhatsApp."
+      },
+      {
+        "name": "shadow-header-stuck",
+        "value": "0 10px 24px -22px rgba(27, 38, 51, 0.5)",
+        "purpose": "Cabeçalho depois que a página sai do topo, com filete line."
+      },
+      {
+        "name": "shadow-menu-mobile",
+        "value": "0 24px 32px -24px rgba(27, 38, 51, 0.45)",
+        "purpose": "Painel do menu mobile sob o cabeçalho."
+      },
+      {
+        "name": "ring-line",
+        "value": "inset 0 0 0 1px #c9d6e3",
+        "purpose": "Anel interno de 1px no lugar de borda: célula branca, cartão de avaliação, moldura do mapa."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Entradas e respostas ao toque: pressão, hover, revelações no scroll."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "Movimento que já está na tela: abertura de fotos por clip-path (760ms)."
+      },
+      {
+        "name": "duration-press",
+        "value": "160ms",
+        "purpose": "Pressão (scale 0.97), cor e troca de ícone do menu."
+      },
+      {
+        "name": "duration-hover",
+        "value": "220ms",
+        "purpose": "Hover de células, sublinhado da navegação e sombras."
+      },
+      {
+        "name": "duration-reveal",
+        "value": "520ms",
+        "purpose": "Revelações no scroll: opacity 520ms e translateY(14px) em 560ms, com atraso via --d."
+      },
+      {
+        "name": "duration-photo-reveal",
+        "value": "760ms",
+        "purpose": "Abertura da foto de cima para baixo, com legenda por último (400ms, atraso de 500ms)."
+      },
+      {
+        "name": "press-scale",
+        "value": "scale(0.97)",
+        "purpose": ":active de botões; 0.98 em células, 0.94 em botões redondos."
+      },
+      {
+        "name": "hover-gate",
+        "value": "@media (hover: hover) and (pointer: fine)",
+        "purpose": "Todo hover com deslocamento ou preenchimento fica atrás desta condição."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce)",
+        "purpose": "Revelações viram fades lineares de 240ms; clip-path removido; transforms de pressão e hover cancelados."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "container",
+        "value": "80rem"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão Primário",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "CTA único de cada seção: pílula índigo que leva ao WhatsApp.",
+      "html": "<button class=\"ds-btn-primary\"><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M152.58,145.23l23,11.48A24,24,0,0,1,152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155ZM232,128A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Zm-40,24a8,8,0,0,0-4.42-7.16l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88A40,40,0,0,0,192,152Z\"/></svg>Agendar pelo WhatsApp</button>",
+      "css": ".ds-ico { width: 1.25rem; height: 1.25rem; fill: currentColor; flex: none; display: block; } .ds-ico-lg { width: 1.6rem; height: 1.6rem; } .ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; min-height: 3rem; padding: 0.7rem 1.45rem; border: 0; border-radius: 999px; background: var(--indigo, #3a45a0); color: #fff; font-family: \"Hanken Grotesk\", system-ui, -apple-system, \"Segoe UI\", sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.2; white-space: nowrap; cursor: pointer; box-shadow: 0 10px 24px -12px rgba(58, 69, 160, 0.7); transition: transform 160ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)), background-color 160ms ease, box-shadow 220ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)); } .ds-btn-primary:hover { background: var(--indigo-deep, #2d3680); box-shadow: 0 16px 30px -14px rgba(45, 54, 128, 0.75); transform: translateY(-2px); } .ds-btn-primary:active { transform: scale(0.97); } .ds-btn-primary:focus-visible { outline: 3px solid var(--indigo, #3a45a0); outline-offset: 3px; }"
+    },
+    {
+      "name": "Botão Claro",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Botão branco para uso sobre o painel índigo de fechamento.",
+      "html": "<div class=\"ds-on-indigo\"><button class=\"ds-btn-light\"><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M152.58,145.23l23,11.48A24,24,0,0,1,152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155ZM232,128A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Zm-40,24a8,8,0,0,0-4.42-7.16l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88A40,40,0,0,0,192,152Z\"/></svg>Agendar pelo WhatsApp</button></div>",
+      "css": ".ds-ico { width: 1.25rem; height: 1.25rem; fill: currentColor; flex: none; display: block; } .ds-ico-lg { width: 1.6rem; height: 1.6rem; } .ds-on-indigo { background: var(--indigo, #3a45a0); padding: 1.5rem; border-radius: 20px; } .ds-btn-light { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; min-height: 3rem; padding: 0.7rem 1.45rem; border: 0; border-radius: 999px; background: #fff; color: var(--indigo-deep, #2d3680); font-family: \"Hanken Grotesk\", system-ui, -apple-system, \"Segoe UI\", sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.2; white-space: nowrap; cursor: pointer; transition: transform 160ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)), background-color 160ms ease; } .ds-btn-light:hover { background: var(--indigo-soft, #dde1f5); transform: translateY(-2px); } .ds-btn-light:active { transform: scale(0.97); } .ds-btn-light:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }"
+    },
+    {
+      "name": "Link com Seta",
+      "kind": "custom",
+      "refersTo": "link-arrow",
+      "description": "Ação secundária em texto: índigo, 600, com seta que anda no hover.",
+      "html": "<a class=\"ds-link-arrow\" href=\"#\">Ver especialidades<svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a>",
+      "css": ".ds-ico { width: 1.25rem; height: 1.25rem; fill: currentColor; flex: none; display: block; } .ds-ico-lg { width: 1.6rem; height: 1.6rem; } .ds-link-arrow { display: inline-flex; align-items: center; gap: 0.45rem; min-height: 2.75rem; font-family: \"Hanken Grotesk\", system-ui, -apple-system, \"Segoe UI\", sans-serif; font-weight: 600; font-size: 1rem; color: var(--indigo, #3a45a0); text-decoration: none; text-underline-offset: 0.28em; } .ds-link-arrow .ds-ico { transition: transform 180ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)); } .ds-link-arrow:hover { text-decoration: underline; text-decoration-thickness: 1.5px; } .ds-link-arrow:hover .ds-ico { transform: translateX(3px); } .ds-link-arrow:active .ds-ico { transform: translateX(1px); } .ds-link-arrow:focus-visible { outline: 3px solid var(--indigo, #3a45a0); outline-offset: 3px; border-radius: 6px; }"
+    },
+    {
+      "name": "Link de Navegação",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Link do cabeçalho com sublinhado índigo que cresce da esquerda; o link ativo fica sublinhado.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-link\" href=\"#\">Especialidades</a><a class=\"ds-nav-link\" href=\"#\" aria-current=\"true\">A clínica</a><a class=\"ds-nav-link\" href=\"#\">Avaliações</a><a class=\"ds-nav-link\" href=\"#\">Como chegar</a></nav>",
+      "css": ".ds-nav { display: flex; gap: 1.75rem; } .ds-nav-link { position: relative; display: inline-flex; align-items: center; min-height: 2.75rem; font-family: \"Hanken Grotesk\", system-ui, -apple-system, \"Segoe UI\", sans-serif; font-weight: 500; font-size: 0.98rem; color: var(--ink-soft, #3f4c5e); text-decoration: none; transition: color 0.2s; } .ds-nav-link::after { content: \"\"; position: absolute; left: 0; right: 0; bottom: 0.45rem; height: 2px; background: var(--indigo, #3a45a0); transform: scaleX(0); transform-origin: left; transition: transform 220ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)); } .ds-nav-link:hover { color: var(--indigo, #3a45a0); } .ds-nav-link:hover::after, .ds-nav-link[aria-current=\"true\"]::after { transform: scaleX(1); } .ds-nav-link:focus-visible { outline: 3px solid var(--indigo, #3a45a0); outline-offset: 3px; border-radius: 6px; }"
+    },
+    {
+      "name": "Célula Índigo (Psicologia)",
+      "kind": "card",
+      "refersTo": "cell-indigo",
+      "description": "Célula de destaque do bento: fundo índigo, título grande e rótulo de ação visível.",
+      "html": "<a class=\"ds-cell-indigo\" href=\"#\"><span class=\"ds-cell-ico\"><svg class=\"ds-ico ds-ico-lg\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M248,124a56.11,56.11,0,0,0-32-50.61V72a48,48,0,0,0-88-26.49A48,48,0,0,0,40,72v1.39a56,56,0,0,0,0,101.2V176a48,48,0,0,0,88,26.49A48,48,0,0,0,216,176v-1.41A56.09,56.09,0,0,0,248,124ZM88,208a32,32,0,0,1-31.81-28.56A55.87,55.87,0,0,0,64,180h8a8,8,0,0,0,0-16H64A40,40,0,0,1,50.67,86.27,8,8,0,0,0,56,78.73V72a32,32,0,0,1,64,0v68.26A47.8,47.8,0,0,0,88,128a8,8,0,0,0,0,16,32,32,0,0,1,0,64Zm104-44h-8a8,8,0,0,0,0,16h8a55.87,55.87,0,0,0,7.81-.56A32,32,0,1,1,168,144a8,8,0,0,0,0-16,47.8,47.8,0,0,0-32,12.26V72a32,32,0,0,1,64,0v6.73a8,8,0,0,0,5.33,7.54A40,40,0,0,1,192,164Zm16-52a8,8,0,0,1-8,8h-4a36,36,0,0,1-36-36V80a8,8,0,0,1,16,0v4a20,20,0,0,0,20,20h4A8,8,0,0,1,208,112ZM60,120H56a8,8,0,0,1,0-16h4A20,20,0,0,0,80,84V80a8,8,0,0,1,16,0v4A36,36,0,0,1,60,120Z\"/></svg></span><div><h3>Psicologia</h3><p>Atendimento psicológico para adultos e para crianças, com a equipe da clínica.</p></div><span class=\"ds-cell-go\">Agendar pelo WhatsApp <svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z\"/></svg></span></a>",
+      "css": ".ds-ico { width: 1.25rem; height: 1.25rem; fill: currentColor; flex: none; display: block; } .ds-ico-lg { width: 1.6rem; height: 1.6rem; } .ds-cell-indigo { position: relative; display: flex; flex-direction: column; justify-content: space-between; gap: 1.5rem; min-height: 22rem; max-width: 30rem; padding: 1.5rem; border-radius: 20px; background: var(--indigo, #3a45a0); color: #fff; text-decoration: none; overflow: hidden; transition: transform 220ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)), box-shadow 220ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)); } .ds-cell-indigo h3 { margin: 0; font-family: \"Bricolage Grotesque\", \"Hanken Grotesk\", system-ui, sans-serif; font-weight: 650; font-size: 2.2rem; line-height: 1.05; letter-spacing: -0.03em; color: #fff; text-wrap: balance; } .ds-cell-indigo p { margin: 0.55rem 0 0; font-family: \"Hanken Grotesk\", system-ui, -apple-system, \"Segoe UI\", sans-serif; font-size: 1.1rem; line-height: 1.5; color: var(--on-indigo, #e3e6fb); max-width: 24rem; } .ds-cell-ico { display: grid; place-items: center; width: 3.5rem; height: 3.5rem; border-radius: 50%; background: rgba(255, 255, 255, 0.16); color: #fff; } .ds-cell-go { display: inline-flex; align-items: center; gap: 0.4rem; font-family: \"Hanken Grotesk\", system-ui, -apple-system, \"Segoe UI\", sans-serif; font-weight: 600; font-size: 0.95rem; color: #fff; } .ds-cell-go .ds-ico { transition: transform 200ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)); } .ds-cell-indigo:hover { transform: translateY(-4px); box-shadow: 0 1px 2px rgba(27, 38, 51, 0.05), 0 12px 32px -12px rgba(45, 54, 128, 0.18); } .ds-cell-indigo:hover .ds-cell-go .ds-ico { transform: translate(3px, -3px); } .ds-cell-indigo:active { transform: scale(0.98); } .ds-cell-indigo:focus-visible { outline: 3px solid #fff; outline-offset: -6px; }"
+    },
+    {
+      "name": "Célula Azul-Claro",
+      "kind": "card",
+      "refersTo": "cell-sky",
+      "description": "Célula padrão do bento: campo sky, círculo de ícone branco e botão redondo de seta.",
+      "html": "<a class=\"ds-cell-sky\" href=\"#\"><span class=\"ds-cell2-ico\"><svg class=\"ds-ico ds-ico-lg\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M216,104a8,8,0,0,1-16,0,72,72,0,0,0-144,0c0,26.7,8.53,34.92,17.57,43.64C82.21,156,92,165.41,92,188a36,36,0,0,0,36,36c10.24,0,18.45-4.16,25.83-13.09a8,8,0,1,1,12.34,10.18C155.81,233.64,143,240,128,240a52.06,52.06,0,0,1-52-52c0-15.79-5.68-21.27-13.54-28.84C52.46,149.5,40,137.5,40,104a88,88,0,0,1,176,0Zm-38.13,57.08A8,8,0,0,0,166.93,164,8,8,0,0,1,152,160c0-9.33,4.82-15.76,10.4-23.2,6.37-8.5,13.6-18.13,13.6-32.8a48,48,0,0,0-96,0,8,8,0,0,0,16,0,32,32,0,0,1,64,0c0,9.33-4.82,15.76-10.4,23.2-6.37,8.5-13.6,18.13-13.6,32.8a24,24,0,0,0,44.78,12A8,8,0,0,0,177.87,161.08Z\"/></svg></span><div><h3>Fonoaudiologia</h3><p>Acompanhamento com a equipe da clínica.</p></div><span class=\"ds-cell2-go\"><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z\"/></svg></span></a>",
+      "css": ".ds-ico { width: 1.25rem; height: 1.25rem; fill: currentColor; flex: none; display: block; } .ds-ico-lg { width: 1.6rem; height: 1.6rem; } .ds-cell-sky { position: relative; display: flex; flex-direction: column; justify-content: space-between; gap: 1.5rem; min-height: 14.5rem; max-width: 18rem; padding: 1.5rem; border-radius: 20px; background: var(--sky, #dce8f2); color: var(--ink, #1b2633); text-decoration: none; overflow: hidden; transition: transform 220ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)), box-shadow 220ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)); } .ds-cell-sky h3 { margin: 0; font-family: \"Bricolage Grotesque\", \"Hanken Grotesk\", system-ui, sans-serif; font-weight: 650; font-size: 1.45rem; line-height: 1.12; letter-spacing: -0.02em; } .ds-cell-sky p { margin: 0.55rem 0 0; font-family: \"Hanken Grotesk\", system-ui, -apple-system, \"Segoe UI\", sans-serif; font-size: 1rem; line-height: 1.5; color: var(--ink-soft, #3f4c5e); } .ds-cell2-ico { display: grid; place-items: center; width: 3rem; height: 3rem; border-radius: 50%; background: rgba(255, 255, 255, 0.7); color: var(--indigo-deep, #2d3680); } .ds-cell2-go { display: grid; place-items: center; width: 2.5rem; height: 2.5rem; border-radius: 50%; background: rgba(255, 255, 255, 0.75); color: var(--indigo-deep, #2d3680); } .ds-cell2-go .ds-ico { transition: transform 200ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)); } .ds-cell-sky:hover { transform: translateY(-4px); box-shadow: 0 1px 2px rgba(27, 38, 51, 0.05), 0 12px 32px -12px rgba(45, 54, 128, 0.18); } .ds-cell-sky:hover .ds-cell2-go .ds-ico { transform: translate(3px, -3px); } .ds-cell-sky:active { transform: scale(0.98); } .ds-cell-sky:focus-visible { outline: 3px solid var(--indigo, #3a45a0); outline-offset: 3px; }"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pílula de tópico dentro de uma célula (ex.: temas da psiquiatria).",
+      "html": "<div class=\"ds-chip-bg\"><span class=\"ds-chip\">Ansiedade e pânico</span> <span class=\"ds-chip\">Depressão</span> <span class=\"ds-chip\">TDAH</span></div>",
+      "css": ".ds-chip-bg { display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 1rem; border-radius: 20px; background: var(--leaf, #e4eee7); } .ds-chip { padding: 0.28rem 0.7rem; border-radius: 999px; background: rgba(255, 255, 255, 0.75); font-family: \"Hanken Grotesk\", system-ui, -apple-system, \"Segoe UI\", sans-serif; font-size: 0.88rem; font-weight: 500; color: var(--ink, #1b2633); }"
+    },
+    {
+      "name": "Cartão de Avaliação",
+      "kind": "card",
+      "refersTo": "review-card",
+      "description": "Cartão branco da trilha de avaliações: estrelas, citação e autor com avatar.",
+      "html": "<figure class=\"ds-review\"><div class=\"ds-stars\" role=\"img\" aria-label=\"5 estrelas\"><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z\"/></svg><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z\"/></svg><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z\"/></svg><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z\"/></svg><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z\"/></svg></div><blockquote>“Lugar limpo, organizado, pessoas educadas; têm boa comunicação/interação com os pacientes.”</blockquote><figcaption class=\"ds-review-who\"><span class=\"ds-avatar\" aria-hidden=\"true\">E</span><span><strong>Ednaldo</strong><span class=\"ds-sub\">Avaliação no Google</span></span></figcaption></figure>",
+      "css": ".ds-ico { width: 1.25rem; height: 1.25rem; fill: currentColor; flex: none; display: block; } .ds-review { margin: 0; display: flex; flex-direction: column; justify-content: space-between; gap: 1.4rem; width: min(100%, 22rem); padding: 1.5rem; border-radius: 20px; background: #fff; box-shadow: inset 0 0 0 1px var(--line, #c9d6e3); } .ds-stars { display: inline-flex; gap: 2px; color: var(--star, #f4b400); } .ds-stars .ds-ico { width: 1.05rem; height: 1.05rem; } .ds-review blockquote { margin: 0; font-family: \"Hanken Grotesk\", system-ui, -apple-system, \"Segoe UI\", sans-serif; font-size: 1.06rem; line-height: 1.55; color: var(--ink, #1b2633); } .ds-review-who { display: flex; align-items: center; gap: 0.75rem; font-family: \"Hanken Grotesk\", system-ui, -apple-system, \"Segoe UI\", sans-serif; } .ds-avatar { display: grid; place-items: center; width: 2.6rem; height: 2.6rem; border-radius: 50%; background: var(--indigo-soft, #dde1f5); color: var(--indigo-deep, #2d3680); font-family: \"Bricolage Grotesque\", \"Hanken Grotesk\", system-ui, sans-serif; font-weight: 700; } .ds-review-who strong { display: block; color: var(--ink, #1b2633); font-weight: 650; line-height: 1.2; } .ds-sub { font-size: 0.88rem; color: var(--ink-mute, #566377); }"
+    },
+    {
+      "name": "Faixa de Prova",
+      "kind": "custom",
+      "refersTo": "proof-strip",
+      "description": "Faixa fina de prova entre o hero e as especialidades: nota e horário.",
+      "html": "<div class=\"ds-proof\"><a class=\"ds-proof-item\" href=\"#\"><span class=\"ds-stars\"><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z\"/></svg><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z\"/></svg><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z\"/></svg><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z\"/></svg><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z\"/></svg></span><span><strong>4,9 no Google</strong>, 44 avaliações de pacientes</span></a><p class=\"ds-proof-item\"><span class=\"ds-ind\"><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z\"/></svg></span><span>Seg a sex, 8h às 18h. Sáb, 8h às 12h.</span></p></div>",
+      "css": ".ds-ico { width: 1.25rem; height: 1.25rem; fill: currentColor; flex: none; display: block; } .ds-ico-lg { width: 1.6rem; height: 1.6rem; } .ds-proof { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0 2.5rem; padding: 0.5rem 1.25rem; border-block: 1px solid var(--line, #c9d6e3); background: #fff; } .ds-proof-item { display: inline-flex; align-items: center; gap: 0.7rem; min-height: 3rem; margin: 0; font-family: \"Hanken Grotesk\", system-ui, -apple-system, \"Segoe UI\", sans-serif; font-size: 0.98rem; color: var(--ink-soft, #3f4c5e); text-decoration: none; } .ds-proof-item strong { color: var(--ink, #1b2633); font-weight: 700; } a.ds-proof-item:hover strong { color: var(--indigo, #3a45a0); text-decoration: underline; text-underline-offset: 0.25em; } .ds-stars { display: inline-flex; gap: 2px; color: var(--star, #f4b400); } .ds-stars .ds-ico { width: 1.05rem; height: 1.05rem; } .ds-ind { color: var(--indigo, #3a45a0); display: inline-flex; }"
+    },
+    {
+      "name": "Painel de Fechamento",
+      "kind": "card",
+      "refersTo": "panel-indigo",
+      "description": "Painel índigo de 28px que fecha a página com um último convite ao WhatsApp.",
+      "html": "<div class=\"ds-panel\"><h2>Vamos conversar sobre o atendimento?</h2><p>Conte pelo WhatsApp o que você procura e a equipe responde com os próximos passos.</p><button class=\"ds-panel-btn\"><svg class=\"ds-ico\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path d=\"M152.58,145.23l23,11.48A24,24,0,0,1,152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155ZM232,128A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Zm-40,24a8,8,0,0,0-4.42-7.16l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88A40,40,0,0,0,192,152Z\"/></svg>Agendar pelo WhatsApp</button></div>",
+      "css": ".ds-ico { width: 1.25rem; height: 1.25rem; fill: currentColor; flex: none; display: block; } .ds-ico-lg { width: 1.6rem; height: 1.6rem; } .ds-panel { max-width: 40rem; padding: 2.5rem 1.75rem; border-radius: 28px; background: var(--indigo, #3a45a0); color: var(--on-indigo, #e3e6fb); } .ds-panel h2 { margin: 0; font-family: \"Bricolage Grotesque\", \"Hanken Grotesk\", system-ui, sans-serif; font-weight: 650; font-size: 2rem; line-height: 1.08; letter-spacing: -0.03em; color: #fff; text-wrap: balance; } .ds-panel p { margin: 1rem 0 0; font-family: \"Hanken Grotesk\", system-ui, -apple-system, \"Segoe UI\", sans-serif; font-size: 1.125rem; line-height: 1.6; color: var(--on-indigo, #e3e6fb); } .ds-panel-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; min-height: 3rem; margin-top: 2rem; padding: 0.7rem 1.45rem; border: 0; border-radius: 999px; background: #fff; color: var(--indigo-deep, #2d3680); font-family: \"Hanken Grotesk\", system-ui, -apple-system, \"Segoe UI\", sans-serif; font-weight: 600; font-size: 1rem; cursor: pointer; transition: transform 160ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)), background-color 160ms ease; } .ds-panel-btn:hover { background: var(--indigo-soft, #dde1f5); transform: translateY(-2px); } .ds-panel-btn:active { transform: scale(0.97); } .ds-panel-btn:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "A Recepção à Luz do Dia",
+    "overview": "O sistema nasce do logo da clínica e da recepção real: parede azul-acinzentada, balcão de madeira clara, sofá azul-marinho e borboletas pousando numa árvore de madeira. A página inteira é essa sala em plena luz do dia. A base é um branco azulado (`paper`), a tinta é ardósia profunda, e um único azul-índigo (`indigo`), tirado das asas das borboletas, faz todo o trabalho de chamada para ação. Azul-claro (`sky`) e verde-folha (`leaf`) existem só como campos de cor, nunca como segundo acento.\n\nO tom é acolhedor e sóbrio: atende crianças e adultos, então não infantiliza nem esfria. Títulos em Bricolage Grotesque trazem personalidade; o texto corrido em Hanken Grotesk mantém a leitura calma. A densidade é média, com muito respiro entre seções (80px no celular, 112px no desktop) e superfícies planas, sem sombras em repouso. O momento memorável é o hero: o logo se monta sozinho em vídeo, e o resto da página fala a mesma língua de cor e de forma.\n\nConfirmado como rejeição visual: nada de bege, serifa ou violeta; nada de foto de estoque sorrindo; nada de três cards iguais com ícone; nada de verde-água genérico de clínica. O logo original é intocável: só o fundo branco pode sumir (via `mix-blend-mode: multiply`).",
+    "keyCharacteristics": [
+      "Acento único: `indigo` (#3a45a0) em todo CTA e destaque; `sky` e `leaf` apenas como campos de cor.",
+      "Tema claro, base azulada (`paper`), tinta ardósia (`ink`), sem modo escuro (`color-scheme: light`).",
+      "Cantos arredondados em duas escalas: pílula (999px) para ações, 20px para painéis, 28px só para o painel de fechamento.",
+      "Profundidade tonal: superfícies planas com anel interno de 1px (`line`); sombra só como resposta a estado.",
+      "Movimento com intenção: easing de saída para interface, easing de entrada e saída para fotos; hover só com mouse; tudo colapsa para fades curtos em `prefers-reduced-motion`.",
+      "Fontes auto-hospedadas (woff2 em `assets/fonts`), sem Google Fonts."
+    ],
+    "rules": [
+      {
+        "name": "The One Voice Rule",
+        "body": "O índigo é o único acento. Todo CTA, foco, seleção e destaque usa `indigo`; `sky` e `leaf` preenchem áreas, nunca chamam a ação.",
+        "section": "colors"
+      },
+      {
+        "name": "The Star Quarantine Rule",
+        "body": "`star` só aparece em estrelas de avaliação. Não vira destaque, selo, botão ou ícone decorativo.",
+        "section": "colors"
+      },
+      {
+        "name": "The Logo Colors Rule",
+        "body": "A paleta vem do logo; magenta e azul-claro do logo ficam dentro do logo. Não promover magenta a cor de interface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Bricolage só em títulos, marca, links do menu mobile e iniciais dos avatares. Todo o resto é Hanken. Não há terceira família.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tight Headline Rule",
+        "body": "Títulos levam tracking negativo (-0.02em a -0.035em) e `text-wrap: balance`; texto corrido nunca leva tracking.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-At-Rest Rule",
+        "body": "Superfícies são planas em repouso. Sombra de elevação nasce de hover (só com mouse) ou de elemento que flutua; nunca decora um cartão parado.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Tinted Shadow Rule",
+        "body": "Sombras de acento são tingidas de índigo (rgba(58, 69, 160) ou rgba(45, 54, 128)); sombras neutras usam a ardósia (rgba(27, 38, 51)). Nunca preto puro.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** usar `indigo` (#3a45a0) como o único acento e `indigo-deep` (#2d3680) para hover e pressão.",
+      "**Do** manter `sky` (#dce8f2) e `leaf` (#e4eee7) como campos de cor atrás de conteúdo, nunca como cor de ação.",
+      "**Do** usar pílula (999px) para ações e 20px para painéis; reservar 28px ao painel de fechamento.",
+      "**Do** manter superfícies planas em repouso, com anel interno de 1px em `line` (#c9d6e3) para separar o que não tem sombra.",
+      "**Do** manter Bricolage Grotesque só em títulos e marca, com tracking negativo, e Hanken Grotesk em todo o resto.",
+      "**Do** manter texto corrido em `ink-soft` (#3f4c5e) e texto de apoio em `ink-mute` (#566377), nunca abaixo de 4,5:1.",
+      "**Do** aplicar `--ease-out` em respostas de interface e `--ease-in-out` na abertura de fotos; manter hover sob `hover: hover` e `pointer: fine`, e `:active` em `scale(0.97)`.",
+      "**Do** manter o logo sobre o disco `sky` com `mix-blend-mode: multiply`, e a imagem estática como reserva.",
+      "**Do** deixar toda chamada para ação levar ao WhatsApp, com alvo de toque de no mínimo 44px e foco visível de 3px em `indigo` (branco sobre índigo)."
+    ],
+    "donts": [
+      "**Don't** introduzir um segundo acento nem usar magenta, violeta ou bege na interface; o roxo e a serifa estão fora do sistema.",
+      "**Don't** usar `star` (#f4b400) fora das estrelas de avaliação.",
+      "**Don't** redesenhar, recolorir ou aplicar filtro no logo; só o fundo branco some, pelo `multiply`.",
+      "**Don't** colocar sombra de elevação em cartão parado, nem sombra preta pura; sombras de acento são tingidas de índigo.",
+      "**Don't** usar foto de estoque, moldura decorativa ou filtro nas fotos; só fotos reais da clínica.",
+      "**Don't** montar a página como fila de três cards iguais com ícone; o bento varia tamanho e cor, e Psicologia é a célula em destaque.",
+      "**Don't** usar texto `indigo` sobre fundo `indigo` nem texto cinza claro sobre `sky` ou `leaf`; sobre índigo, texto branco ou `on-indigo`.",
+      "**Don't** deixar efeito de hover (translate, preenchimento) valer em tela de toque; sempre sob `hover: hover` e `pointer: fine`.",
+      "**Don't** animar largura, altura, margem ou posição; e não manter movimento de deslocamento em `prefers-reduced-motion`, só fades curtos.",
+      "**Don't** carregar fontes de Google Fonts ou de CDN; as duas famílias são woff2 auto-hospedados."
+    ]
+  }
+}

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ===== SEO (EDITÁVEL) ===== -->
+  <title>Clínica Papillon | Clínica multidisciplinar em Mauá, SP</title>
+  <meta name="description" content="Clínica Papillon em Mauá: psicologia adulto e infantil, avaliação neuropsicológica, fonoaudiologia, nutrição, fisioterapia, terapia ABA e psiquiatria. Agende pelo WhatsApp.">
+  <meta name="theme-color" content="#f3f6fa">
+
+  <!-- ===== Open Graph (prévia no WhatsApp/Instagram) =====
+       Depois do deploy, troque og:image por URL absoluta, ex.: https://SEU-DOMINIO/assets/img/og-image.jpg -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Clínica Papillon | Clínica multidisciplinar em Mauá">
+  <meta property="og:description" content="Psicologia, avaliação neuropsicológica, fonoaudiologia, nutrição, fisioterapia, terapia ABA e psiquiatria no mesmo endereço. Agende pelo WhatsApp.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- ===== Favicon (gerado do logo) ===== -->
+  <link rel="icon" href="assets/img/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <!-- Fontes auto-hospedadas e imagem do hero: carregam cedo (são o maior conteúdo da primeira tela) -->
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/bricolage-grotesque-latin.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/hanken-grotesk-latin.woff2" crossorigin>
+  <link rel="preload" as="image" href="assets/img/logo-hero-final.webp" type="image/webp">
+
+  <!-- ===== Tailwind via CDN (preflight desligado: o reset está em assets/css/style.css) ===== -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      corePlugins: { preflight: false },
+      theme: { extend: { colors: {
+        paper: "#f3f6fa", ink: "#1b2633", indigo: { DEFAULT: "#3a45a0", deep: "#2d3680", soft: "#dde1f5" }, sky: "#dce8f2", leaf: "#e4eee7"
+      } } }
+    };
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- ===== Analytics: GoatCounter (sem cookies, sem banner). Não altere nada além do endereço. ===== -->
+  <script data-goatcounter="https://teocode.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <!-- ===== SEO local: dados reais da Google Meu Negócio. Adicione "url" após o deploy. ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "Clínica Papillon",
+    "description": "Clínica multidisciplinar de saúde física e mental em Mauá: psicologia adulto e infantil, avaliação neuropsicológica, fonoaudiologia, nutrição, fisioterapia, terapia ABA, psiquiatria e reforço escolar.",
+    "image": "assets/img/og-image.jpg",
+    "telephone": "+55 11 95025-3185",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Cedral, 51 - Jardim Pedroso",
+      "addressLocality": "Mauá",
+      "addressRegion": "SP",
+      "postalCode": "09370-540",
+      "addressCountry": "BR"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": -23.6710957, "longitude": -46.4639736 },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "12:00" }
+    ],
+    "sameAs": [ "https://www.instagram.com/clinica.papillon/", "https://linktr.ee/clinicapapillon" ]
+  }
+  </script>
+</head>
+
+<body>
+<!--SPRITE-->
+
+<a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+<div id="sentinela-topo" aria-hidden="true" style="position:absolute;top:0;height:1px;width:1px"></div>
+
+<!-- ============================ CABEÇALHO ============================ -->
+<header class="site-header">
+  <div class="mx-auto flex h-[68px] max-w-7xl items-center justify-between gap-6 px-5 lg:px-8">
+    <a class="brand" href="#topo" aria-label="Clínica Papillon. Voltar ao topo">
+      <img src="assets/img/logo-papillon-240.webp" alt="" width="240" height="240">
+      <span class="brand-name">Clínica Papillon</span>
+    </a>
+
+    <nav class="hidden items-center gap-7 lg:flex" aria-label="Principal">
+      <a class="nav-link" href="#especialidades">Especialidades</a>
+      <a class="nav-link" href="#clinica">A clínica</a>
+      <a class="nav-link" href="#avaliacoes">Avaliações</a>
+      <a class="nav-link" href="#local">Como chegar</a>
+    </nav>
+
+    <!-- CTA do menu -->
+    <a class="btn btn-primary btn-sm hidden lg:inline-flex" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+       data-gc-event="cta-menu"
+       data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de agendar um atendimento.">
+      <svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo-fill"/></svg>
+      Agendar pelo WhatsApp
+    </a>
+
+    <button id="menu-btn" class="menu-btn lg:hidden" type="button" aria-expanded="false" aria-controls="menu-mobile" aria-label="Abrir menu">
+      <svg class="icon icon-lg i-abrir" aria-hidden="true"><use href="#i-list"/></svg>
+      <svg class="icon icon-lg i-fechar" aria-hidden="true"><use href="#i-x"/></svg>
+    </button>
+  </div>
+
+  <div id="menu-mobile" class="menu-mobile lg:hidden">
+    <nav aria-label="Menu mobile">
+      <a class="m-link" href="#especialidades">Especialidades</a>
+      <a class="m-link" href="#clinica">A clínica</a>
+      <a class="m-link" href="#avaliacoes">Avaliações</a>
+      <a class="m-link" href="#local">Como chegar</a>
+    </nav>
+    <a class="btn btn-primary mt-5 w-full" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+       data-gc-event="cta-menu-mobile"
+       data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de agendar um atendimento.">
+      <svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo-fill"/></svg>
+      Agendar pelo WhatsApp
+    </a>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- ============================ HERO ============================ -->
+  <section id="topo" aria-labelledby="titulo-hero" data-hide-float>
+    <div class="hero-grid mx-auto grid max-w-7xl items-center gap-6 px-5 pb-12 pt-5 lg:gap-10 lg:px-8 lg:pb-16 lg:pt-8">
+
+      <div class="order-2 lg:order-1">
+        <!-- TEXTO EDITÁVEL: título, subtexto e botões -->
+        <h1 id="titulo-hero" class="hero-title hero-in" style="--i:0">Saúde da mente e do&nbsp;corpo,<br class="hidden lg:block"> em uma só clínica.</h1>
+        <p class="hero-lead mt-6 hero-in" style="--i:1">Psicologia, avaliação neuropsicológica, fonoaudiologia, nutrição e mais, em Mauá. Fale com a equipe pelo WhatsApp.</p>
+        <div class="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 hero-in" style="--i:2">
+          <a class="btn btn-primary" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+             data-gc-event="cta-hero"
+             data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de agendar um atendimento.">
+            <svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo-fill"/></svg>
+            Agendar pelo WhatsApp
+          </a>
+          <a class="link-arrow" href="#especialidades">
+            Ver especialidades
+            <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Vídeo do logo (assets/video). Fundo branco + multiply: o branco desaparece sobre o disco azul-claro.
+           Repete com uma pausa curta entre ciclos. Sem JS / movimento reduzido / economia de dados: imagem do logo original. -->
+      <div class="order-1 lg:order-2">
+        <div class="logo-stage" data-logo-stage role="img" aria-label="Logo da Clínica Papillon: borboletas pousam em uma árvore de madeira e formam o logo">
+          <video muted playsinline preload="auto" aria-hidden="true" tabindex="-1" width="720" height="720">
+            <source src="assets/video/logo-hero-720.webm" type="video/webm">
+            <source src="assets/video/logo-hero-720.mp4" type="video/mp4">
+          </video>
+          <img src="assets/img/logo-hero-final.webp" alt="" width="720" height="720" fetchpriority="high">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ FAIXA DE PROVA ============================ -->
+  <section class="proof-strip" aria-label="Avaliação, horário e endereço">
+    <div class="mx-auto flex max-w-7xl flex-col gap-x-10 gap-y-0 px-5 py-2 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between lg:px-8">
+      <a class="proof-item" href="https://www.google.com/search?q=cl%C3%ADnica+papillon+mau%C3%A1" target="_blank" rel="noopener" data-gc-event="link-google-faixa">
+        <span class="stars" aria-hidden="true">
+          <svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg>
+        </span>
+        <span><strong>4,9 no Google</strong>, 44 avaliações de pacientes</span>
+      </a>
+      <p class="proof-item">
+        <svg class="icon text-indigo" aria-hidden="true"><use href="#i-clock"/></svg>
+        <span>Seg a sex, 8h às 18h. Sáb, 8h às 12h.</span>
+      </p>
+      <p class="proof-item">
+        <svg class="icon text-indigo" aria-hidden="true"><use href="#i-map-pin"/></svg>
+        <span>Rua Cedral, 51, Jardim Pedroso, Mauá</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================ ESPECIALIDADES ============================ -->
+  <section id="especialidades" class="py-20 lg:py-28" aria-labelledby="titulo-esp">
+    <div class="mx-auto max-w-7xl px-5 lg:px-8">
+      <div data-reveal>
+        <h2 id="titulo-esp" class="section-title">Nossas especialidades</h2>
+        <p class="section-lead">Toque em uma delas para falar com a equipe no WhatsApp.</p>
+      </div>
+
+      <!-- TEXTOS EDITÁVEIS: cada célula é um link para o WhatsApp com mensagem própria -->
+      <ul class="bento mt-12">
+        <li class="cell-psico" data-reveal>
+          <a class="cell cell-indigo" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+             data-gc-event="cta-esp-psicologia" data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de saber mais sobre Psicologia."
+             aria-label="Agendar Psicologia pelo WhatsApp">
+            <span class="cell-ico"><svg class="icon icon-lg" aria-hidden="true"><use href="#i-brain"/></svg></span>
+            <div>
+              <h3>Psicologia</h3>
+              <p>Atendimento psicológico para adultos e para crianças, com a equipe da clínica.</p>
+            </div>
+            <span class="cell-go"><span class="go-label">Agendar pelo WhatsApp</span> <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span>
+          </a>
+        </li>
+        <li data-reveal>
+          <a class="cell cell-sky" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+             data-gc-event="cta-esp-neuropsicologica" data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de saber mais sobre a Avaliação neuropsicológica."
+             aria-label="Agendar Avaliação neuropsicológica pelo WhatsApp">
+            <span class="cell-ico"><svg class="icon icon-lg" aria-hidden="true"><use href="#i-clipboard-text"/></svg></span>
+            <div>
+              <h3>Avaliação neuropsicológica</h3>
+            </div>
+            <span class="cell-go"><span class="go-label">Agendar pelo WhatsApp</span> <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span>
+          </a>
+        </li>
+        <li data-reveal>
+          <a class="cell cell-leaf" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+             data-gc-event="cta-esp-aba" data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de saber mais sobre a Terapia ABA."
+             aria-label="Agendar Terapia ABA pelo WhatsApp">
+            <span class="cell-ico"><svg class="icon icon-lg" aria-hidden="true"><use href="#i-puzzle-piece"/></svg></span>
+            <div>
+              <h3>Terapia ABA</h3>
+              <p>Estratégias individualizadas para comunicação, interação social e autonomia.</p>
+            </div>
+            <span class="cell-go"><span class="go-label">Agendar pelo WhatsApp</span> <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span>
+          </a>
+        </li>
+        <li data-reveal>
+          <a class="cell cell-white" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+             data-gc-event="cta-esp-fono" data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de saber mais sobre Fonoaudiologia."
+             aria-label="Agendar Fonoaudiologia pelo WhatsApp">
+            <span class="cell-ico"><svg class="icon icon-lg" aria-hidden="true"><use href="#i-ear"/></svg></span>
+            <div>
+              <h3>Fonoaudiologia</h3>
+            </div>
+            <span class="cell-go"><span class="go-label">Agendar pelo WhatsApp</span> <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span>
+          </a>
+        </li>
+        <li data-reveal>
+          <a class="cell cell-sky" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+             data-gc-event="cta-esp-nutricao" data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de saber mais sobre Nutrição."
+             aria-label="Agendar Nutrição pelo WhatsApp">
+            <span class="cell-ico"><svg class="icon icon-lg" aria-hidden="true"><use href="#i-carrot"/></svg></span>
+            <div>
+              <h3>Nutrição</h3>
+              <p>Acompanhamento com nutricionista clínica.</p>
+            </div>
+            <span class="cell-go"><span class="go-label">Agendar pelo WhatsApp</span> <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span>
+          </a>
+        </li>
+        <li class="cell-psiq" data-reveal>
+          <a class="cell cell-leaf" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+             data-gc-event="cta-esp-psiquiatria" data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de saber mais sobre Psiquiatria."
+             aria-label="Agendar Psiquiatria pelo WhatsApp">
+            <span class="cell-ico"><svg class="icon icon-lg" aria-hidden="true"><use href="#i-stethoscope"/></svg></span>
+            <div>
+              <h3>Psiquiatria</h3>
+              <p>Com o Dr. Adenilson Almeida.</p>
+              <div class="chips">
+                <span class="chip">Ansiedade e pânico</span><span class="chip">Depressão</span><span class="chip">TDAH</span>
+                <span class="chip">Insônia</span><span class="chip">Transtorno bipolar</span><span class="chip">Burnout e estresse</span><span class="chip">Transtornos alimentares</span>
+              </div>
+            </div>
+            <span class="cell-go"><span class="go-label">Agendar pelo WhatsApp</span> <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span>
+          </a>
+        </li>
+        <li data-reveal>
+          <a class="cell cell-white" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+             data-gc-event="cta-esp-fisio" data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de saber mais sobre Fisioterapia."
+             aria-label="Agendar Fisioterapia pelo WhatsApp">
+            <span class="cell-ico"><svg class="icon icon-lg" aria-hidden="true"><use href="#i-hand-heart"/></svg></span>
+            <div>
+              <h3>Fisioterapia</h3>
+              <p>Fisioterapia pélvica e técnicas manuais.</p>
+            </div>
+            <span class="cell-go"><span class="go-label">Agendar pelo WhatsApp</span> <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span>
+          </a>
+        </li>
+        <li data-reveal>
+          <a class="cell cell-sky" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+             data-gc-event="cta-esp-reforco" data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de saber mais sobre o Reforço escolar."
+             aria-label="Agendar Reforço escolar pelo WhatsApp">
+            <span class="cell-ico"><svg class="icon icon-lg" aria-hidden="true"><use href="#i-pencil-simple-line"/></svg></span>
+            <div>
+              <h3>Reforço escolar</h3>
+              <p>Para crianças e adultos não alfabetizados. Terças, 13h30 às 16h30, sessões de 30 minutos ou 1 hora.</p>
+            </div>
+            <span class="cell-go"><span class="go-label">Agendar pelo WhatsApp</span> <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================ A CLÍNICA ============================ -->
+  <section id="clinica" class="pb-20 lg:pb-28" aria-labelledby="titulo-clinica">
+    <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 lg:grid-cols-12 lg:gap-16 lg:px-8">
+
+      <div class="lg:col-span-5" data-reveal>
+        <h2 id="titulo-clinica" class="section-title">Uma equipe reunida em Mauá</h2>
+        <p class="section-lead">A Papillon reúne psicologia, fonoaudiologia, nutrição, fisioterapia, terapia ABA, psiquiatria e reforço escolar no mesmo endereço. O atendimento é humanizado, para crianças e adultos.</p>
+        <ul class="mt-8 grid gap-5">
+          <li class="fact">
+            <span class="cell-ico"><svg class="icon icon-lg" aria-hidden="true"><use href="#i-map-pin"/></svg></span>
+            <span><strong>Rua Cedral, 51</strong>Jardim Pedroso, Mauá, SP</span>
+          </li>
+          <li class="fact">
+            <span class="cell-ico"><svg class="icon icon-lg" aria-hidden="true"><use href="#i-wheelchair"/></svg></span>
+            <span><strong>Acessível para cadeirantes</strong>Informação do perfil da clínica no Google</span>
+          </li>
+        </ul>
+        <a class="btn btn-primary mt-9" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+           data-gc-event="cta-clinica" data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de conhecer a clínica e agendar um atendimento.">
+          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo-fill"/></svg>
+          Agendar pelo WhatsApp
+        </a>
+      </div>
+
+      <!-- FOTOS: assets/img/recepcao.webp e corredor.webp (reais, do Google Maps). Trocar por fotos novas quando houver. -->
+      <div class="grid grid-cols-[1.12fr_1fr] items-start gap-3 sm:gap-5 lg:col-span-7">
+        <figure data-reveal="clip">
+          <div class="photo photo-a"><img src="assets/img/recepcao.webp" alt="Recepção da Clínica Papillon, com balcão de madeira clara, sofá azul-marinho e um painel de madeira com uma árvore e borboletas na parede" width="1100" height="1956" loading="lazy" decoding="async"></div>
+          <figcaption class="photo-cap">Recepção da clínica.</figcaption>
+        </figure>
+        <figure class="mt-12 sm:mt-20" data-reveal="clip">
+          <div class="photo photo-b"><img src="assets/img/corredor.webp" alt="Corredor da Clínica Papillon, com quadro de lírios na parede e portas para as salas" width="1100" height="1953" loading="lazy" decoding="async"></div>
+          <figcaption class="photo-cap">Corredor da clínica.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ AVALIAÇÕES ============================ -->
+  <section id="avaliacoes" class="bg-white py-20 lg:py-28" aria-labelledby="titulo-aval">
+    <div class="mx-auto max-w-7xl px-5 lg:px-8">
+      <div class="flex flex-wrap items-end justify-between gap-6" data-reveal>
+        <div>
+          <h2 id="titulo-aval" class="section-title">O que dizem os pacientes</h2>
+          <p class="section-lead">Avaliações reais, publicadas no perfil da clínica no Google. Nota 4,9 em 44 avaliações.</p>
+        </div>
+        <div class="hidden gap-3 lg:flex" role="group" aria-label="Navegar pelas avaliações">
+          <button id="rev-prev" class="nav-round" type="button" aria-label="Avaliações anteriores" disabled>
+            <svg class="icon" aria-hidden="true"><use href="#i-caret-left"/></svg>
+          </button>
+          <button id="rev-next" class="nav-round" type="button" aria-label="Próximas avaliações">
+            <svg class="icon" aria-hidden="true"><use href="#i-caret-right"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- AVALIAÇÕES REAIS do Google (trechos fiéis; "[...]" marca corte). Atualize copiando novas avaliações do perfil. -->
+      <div id="reviews-track" class="reviews-track mt-10" tabindex="0" role="region" aria-label="Avaliações dos pacientes no Google">
+        <figure class="review">
+          <div class="stars" role="img" aria-label="5 estrelas"><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg></div>
+          <blockquote>“E estou muito satisfeita pelo atendimento humanizado deles [...] Eles são extremamente educados, profissionais e diretos!”</blockquote>
+          <figcaption class="review-who"><span class="avatar" aria-hidden="true">B</span><span><strong>Breenda S.</strong><span>Avaliação no Google</span></span></figcaption>
+        </figure>
+        <figure class="review">
+          <div class="stars" role="img" aria-label="5 estrelas"><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg></div>
+          <blockquote>“A Clínica Papillon é um lugar de transformação! Todos os funcionários são extremamente atenciosos e muito educados! Sou paciente e não troco por nenhum outro lugar!”</blockquote>
+          <figcaption class="review-who"><span class="avatar" aria-hidden="true">M</span><span><strong>Marcelo S.</strong><span>Avaliação no Google</span></span></figcaption>
+        </figure>
+        <figure class="review">
+          <div class="stars" role="img" aria-label="5 estrelas"><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg></div>
+          <blockquote>“Já conhecia a Dr Larissa, fisioterapeuta, maravilhosa, me ajudou e me ajuda muito na minha recuperação [...] fui muito bem tratada desde a recepção até os Dr, super recomendo.”</blockquote>
+          <figcaption class="review-who"><span class="avatar" aria-hidden="true">C</span><span><strong>Carolina F.</strong><span>Avaliação no Google</span></span></figcaption>
+        </figure>
+        <figure class="review">
+          <div class="stars" role="img" aria-label="5 estrelas"><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg></div>
+          <blockquote>“Atendimento excelente desde a recepção até a profissional Márcia, estrutura ótima, lugar limpo [...]”</blockquote>
+          <figcaption class="review-who"><span class="avatar" aria-hidden="true">P</span><span><strong>Patricia R.</strong><span>Avaliação no Google</span></span></figcaption>
+        </figure>
+        <figure class="review">
+          <div class="stars" role="img" aria-label="5 estrelas"><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg></div>
+          <blockquote>“Lugar limpo, organizado, pessoas educadas; têm boa comunicação/interação com os pacientes.”</blockquote>
+          <figcaption class="review-who"><span class="avatar" aria-hidden="true">E</span><span><strong>Ednaldo</strong><span>Avaliação no Google</span></span></figcaption>
+        </figure>
+        <figure class="review">
+          <div class="stars" role="img" aria-label="5 estrelas"><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg><svg class="icon"><use href="#i-star-fill"/></svg></div>
+          <blockquote>“Muito competente. [...] Parabéns pela abordagem.”</blockquote>
+          <figcaption class="review-who"><span class="avatar" aria-hidden="true">L</span><span><strong>Luciane B.</strong><span>Avaliação no Google</span></span></figcaption>
+        </figure>
+      </div>
+
+      <div class="mt-4 flex flex-wrap items-center gap-x-8 gap-y-2" data-reveal>
+        <a class="link-arrow" href="https://www.google.com/search?q=cl%C3%ADnica+papillon+mau%C3%A1" target="_blank" rel="noopener" data-gc-event="link-google-avaliacoes">
+          Ver todas as avaliações no Google
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+        </a>
+        <a class="link-arrow" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+           data-gc-event="cta-avaliacoes" data-wa-msg="Olá! Vi as avaliações no site da Clínica Papillon e gostaria de agendar um atendimento.">
+          Agendar pelo WhatsApp
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ COMO CHEGAR ============================ -->
+  <section id="local" class="py-20 lg:py-28" aria-labelledby="titulo-local">
+    <div class="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-12 lg:gap-14 lg:px-8">
+      <div class="lg:col-span-5" data-reveal>
+        <h2 id="titulo-local" class="section-title">Como chegar</h2>
+        <address class="mt-6 text-lg not-italic text-ink">
+          Rua Cedral, 51<br>Jardim Pedroso, Mauá, SP<br>CEP 09370-540
+        </address>
+        <dl class="hours mt-6 max-w-sm">
+          <div><dt>Segunda a sexta</dt><dd>8h às 18h</dd></div>
+          <div><dt>Sábado</dt><dd>8h às 12h</dd></div>
+          <div><dt>Domingo</dt><dd>Fechado</dd></div>
+        </dl>
+        <div class="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
+          <a class="btn btn-primary" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+             data-gc-event="cta-local" data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de agendar um atendimento.">
+            <svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo-fill"/></svg>
+            Agendar pelo WhatsApp
+          </a>
+          <a class="link-arrow" href="https://www.google.com/maps/dir/?api=1&amp;destination=-23.6710957,-46.4639736" target="_blank" rel="noopener" data-gc-event="link-rota">
+            Traçar rota
+            <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="map-frame lg:col-span-7" data-reveal>
+        <iframe src="https://www.google.com/maps?q=Cl%C3%ADnica+Papillon,+R.+Cedral,+51,+Jardim+Pedroso,+Mau%C3%A1&amp;z=17&amp;hl=pt-BR&amp;output=embed"
+                title="Mapa com a localização da Clínica Papillon, na Rua Cedral, 51, em Mauá" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ FECHAMENTO ============================ -->
+  <section class="pb-20 lg:pb-28" aria-labelledby="titulo-final" data-hide-float>
+    <div class="mx-auto max-w-7xl px-5 lg:px-8">
+      <div class="panel-indigo" data-reveal>
+        <div class="flex flex-col items-start gap-8 lg:flex-row lg:items-center lg:justify-between">
+          <div class="max-w-2xl">
+            <h2 id="titulo-final" class="section-title !max-w-none">Vamos conversar sobre o atendimento?</h2>
+            <p class="mt-4 text-lg">Conte pelo WhatsApp o que você procura e a equipe responde com os próximos passos. Telefone: (11) 95025-3185.</p>
+            <a class="btn btn-light mt-8" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+               data-gc-event="cta-final" data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de conversar sobre um atendimento.">
+              <svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo-fill"/></svg>
+              Agendar pelo WhatsApp
+            </a>
+          </div>
+          <img class="panel-logo hidden sm:block" src="assets/img/logo-papillon-240.webp" alt="" width="240" height="240" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============================ RODAPÉ ============================ -->
+<footer class="site-footer" data-hide-float>
+  <div class="mx-auto grid max-w-7xl gap-10 px-5 py-14 sm:grid-cols-2 lg:grid-cols-12 lg:px-8">
+    <div class="lg:col-span-5">
+      <a class="inline-block" href="#topo" aria-label="Clínica Papillon. Voltar ao topo">
+        <img src="assets/img/logo-papillon-240.webp" alt="Logo da Clínica Papillon" width="240" height="240" class="h-28 w-28" loading="lazy">
+      </a>
+      <p class="mt-4 max-w-sm">Clínica multidisciplinar de saúde física e mental em Mauá, SP.</p>
+      <div class="mt-5 flex gap-3">
+        <a class="social" href="https://www.instagram.com/clinica.papillon/" target="_blank" rel="noopener" aria-label="Instagram da Clínica Papillon" data-gc-event="link-instagram">
+          <svg class="icon icon-lg" aria-hidden="true"><use href="#i-instagram-logo"/></svg>
+        </a>
+        <a class="social" href="https://www.google.com/search?q=cl%C3%ADnica+papillon+mau%C3%A1" target="_blank" rel="noopener" aria-label="Clínica Papillon no Google" data-gc-event="link-google-rodape">
+          <svg class="icon icon-lg" aria-hidden="true"><use href="#i-google-logo"/></svg>
+        </a>
+        <a class="social" href="https://wa.me/5511950253185" target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp"
+           data-gc-event="cta-footer" data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de agendar um atendimento.">
+          <svg class="icon icon-lg" aria-hidden="true"><use href="#i-whatsapp-logo-fill"/></svg>
+        </a>
+      </div>
+    </div>
+    <nav class="lg:col-span-3" aria-label="Rodapé">
+      <h2>Na página</h2>
+      <ul class="mt-3">
+        <li><a class="foot-link" href="#especialidades">Especialidades</a></li>
+        <li><a class="foot-link" href="#clinica">A clínica</a></li>
+        <li><a class="foot-link" href="#avaliacoes">Avaliações</a></li>
+        <li><a class="foot-link" href="#local">Como chegar</a></li>
+      </ul>
+    </nav>
+    <div class="lg:col-span-4">
+      <h2>Contato</h2>
+      <ul class="mt-3 grid gap-2">
+        <li><a class="foot-link" href="tel:+5511950253185">(11) 95025-3185</a></li>
+        <li>Rua Cedral, 51, Jardim Pedroso<br>Mauá, SP, CEP 09370-540</li>
+        <li>Seg a sex, 8h às 18h. Sáb, 8h às 12h.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-base">
+    <div class="mx-auto max-w-7xl px-5 text-center text-sm lg:px-8">
+      <p>© 2026 Clínica Papillon - Todos os direitos reservados.</p>
+      <p class="mt-1">Site desenvolvido por <a class="font-semibold text-ink underline underline-offset-4" href="https://teocode.com.br/" target="_blank" rel="noopener">TeoCode</a> · © 2026 TeoCode</p>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp flutuante (celular) -->
+<a class="wa-float" href="https://wa.me/5511950253185" target="_blank" rel="noopener"
+   data-gc-event="cta-flutuante" data-wa-msg="Olá! Vi o site da Clínica Papillon e gostaria de agendar um atendimento."
+   aria-label="Agendar pelo WhatsApp">
+  <svg class="icon icon-lg" aria-hidden="true"><use href="#i-whatsapp-logo-fill"/></svg>
+  <span>Agendar</span>
+</a>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
